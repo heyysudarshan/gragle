@@ -1,13 +1,13 @@
-import org.gradle.internal.jvm.inspection.JvmVendor
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
     alias(libs.plugins.kotlin.compiler)
+    alias(libs.plugins.gradle.plugin.development)
 }
 
 java {
     toolchain {
-        version = JavaLanguageVersion.of(11)
+        languageVersion = JavaLanguageVersion.of(11)
         vendor = JvmVendorSpec.ADOPTIUM
     }
     sourceCompatibility = JavaVersion.VERSION_11
