@@ -2,6 +2,7 @@
 kotlin = "2.2.0"
 
 # Gragle plugin package information
+gragle-name = "Gragle"
 gragle-groupId = "io.github.heyysudarshan.gragle"
 gragle-version = "1.0.0-alpha"
 gragle-implementationClass = "io.github.heyysudarshan.gragle.Gragle"
