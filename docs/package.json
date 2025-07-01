@@ -1,0 +1,13 @@
+{
+    "name": "gragle-docs",
+    "version": "1.0.0-alpha",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build"
+    },
+    "dependencies": {
+        "next": "latest",
+        "react": "latest",
+        "react-dom": "latest"
+    }
+}
