@@ -1,6 +1,6 @@
 import pageInfo from "@/app/PageInfo";
 
-const metadata = pageInfo;
+export const metadata = pageInfo;
 
 export default function RootLayout() {
     return (
