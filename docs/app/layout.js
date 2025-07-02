@@ -1,3 +1,7 @@
+import pageInfo from "@/app/PageInfo";
+
+const metadata = pageInfo;
+
 export default function RootLayout() {
     return (
         <html lang="en">
