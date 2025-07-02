@@ -9,10 +9,5 @@
         "next": "latest",
         "react": "latest",
         "react-dom": "latest"
-    },
-    "devDependencies": {
-        "@tailwindcss/postcss": "latest",
-        "postcss": "latest",
-        "tailwindcss": "latest"
     }
 }
