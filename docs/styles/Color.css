@@ -1,7 +1,15 @@
+.primary-color {
+    background-color: var(--primaryColor);
+}
+
+.primary-color-text {
+    color: var(--primaryColor);
+}
+
 .primary-font-color {
     color: var(--primaryFontColor);
 }
 
-.primary-color {
-    background-color: var(--primaryColor);
+.secondary-font-color {
+    color: var(--secondaryFontColor);
 }
