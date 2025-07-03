@@ -23,6 +23,11 @@
     background-color: var(--secondaryColor);
 }
 
+.navigation-option:hover .navigation-option-link {
+    font-weight: 600;
+    color: var(--primaryColor);
+}
+
 .navigation-option-link {
     padding: 16px 24px;
     height: 100%;
