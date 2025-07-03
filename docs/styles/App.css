@@ -2,7 +2,10 @@
 
 :root {
     --backgroundColor: #FFFFFFFF;
-    --primaryFontColor: #FF171D1A;
+    --primaryColor: #00916E;
+    --secondaryColor: #f5fbf6;
+    --primaryFontColor: #171D1A;
+    --secondaryFontColor: #404944;
 }
 
 * {
