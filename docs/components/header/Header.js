@@ -31,11 +31,22 @@ const HeaderNavigation = () => {
     );
 };
 
+const HeaderActionButtons = () => {
+    return (
+        <div className="header-action-buttons" id="header-action-buttons">
+            <Link href="https://github.com/heyysudarshan/gragle" target="_blank" className="header-github-button" id="header-github-button">
+                <img src="/icons/ic-github.svg" alt="Github" className="github-icon" id="github-icon"/>
+            </Link>
+        </div>
+    );
+}
+
 const Header = () => {
     return (
         <header className="header-container" id="header-container">
             <HeaderLogoAndTitle/>
             <HeaderNavigation/>
+            <HeaderActionButtons/>
         </header>
     );
 };
