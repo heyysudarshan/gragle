@@ -3,7 +3,7 @@
 import Link from "next/link";
 import React from "react";
 import { usePathname } from "next/navigation";
-import Spacer from "@/components/Spacer";
+import Spacer from "@/components/spacer/Spacer";
 
 const NavigationOption = ({id, label, route}) => {
     const isSelected = usePathname() === route;
