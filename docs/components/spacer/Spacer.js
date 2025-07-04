@@ -1,6 +1,6 @@
 const Spacer = ({className}) => {
     return (
-        <span className={className}></span>
+        <span className={className}>NA</span>
     )
 }
 

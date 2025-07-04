@@ -8,7 +8,7 @@ const HeaderLogoAndTitle = () => {
     return (
         <div className="header-logo-and-title-container" id="header-logo-and-title-container">
             <Link to="/" href="/" className="primary-font-color header-link" id="header-link">
-                <h1 className="title-medium semibold">Gragle</h1>
+                <h1 className="title-medium semibold" id="header-title">Gragle</h1>
             </Link>
         </div>
     );

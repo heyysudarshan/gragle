@@ -27,9 +27,9 @@ const NavigationOption = ({id, label, route}) => {
     return (
         <li className="navigation-option" id={navigationOptionId} key={id}>
             <Link href={route} className={labelStyle}>
-                {label}
+                <span className="navigation-option-label" id="navigation-option-label">{label}</span>
                 <Spacer className="_8px"></Spacer>
-                <div className={indicatorStyle}>.</div>
+                <div className={indicatorStyle} id="navigation-option-indicator">.</div>
             </Link>
         </li>
     );
