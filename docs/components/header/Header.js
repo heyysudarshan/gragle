@@ -47,9 +47,9 @@ const HeaderActionButtons = () => {
 const Header = () => {
     return (
         <header className="header-container" id="header-container">
-            <HeaderLogoAndTitle/>
-            <HeaderNavigation/>
-            <HeaderActionButtons/>
+            <HeaderLogoAndTitle></HeaderLogoAndTitle>
+            <HeaderNavigation></HeaderNavigation>
+            <HeaderActionButtons></HeaderActionButtons>
         </header>
     );
 };
