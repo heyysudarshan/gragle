@@ -21,7 +21,7 @@
 }
 
 .navigation-option:hover {
-    background-color: var(--secondaryColor);
+    background-color: var(--hoverColor);
 }
 
 .navigation-option:hover .navigation-option-link {
