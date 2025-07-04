@@ -1,7 +1,8 @@
-import "./Header.css";
 import Link from "next/link";
 import NavigationOption from "@/components/header/NavigationOption";
 import navigationOptionList from "@/components/header/NavigationOptionList";
+
+import "./Header.css";
 
 const HeaderLogoAndTitle = () => {
     return (
@@ -31,10 +32,12 @@ const HeaderNavigation = () => {
     );
 };
 
+const githubLink = "https://github.com/heyysudarshan/gragle";
+
 const HeaderActionButtons = () => {
     return (
         <div className="header-action-buttons" id="header-action-buttons">
-            <Link href="https://github.com/heyysudarshan/gragle" target="_blank" className="header-github-button" id="header-github-button">
+            <Link href={githubLink} target="_blank" className="header-github-button" id="header-github-button">
                 <img src="/icons/ic-github.svg" alt="Github" className="github-icon" id="github-icon"/>
             </Link>
         </div>
