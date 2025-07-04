@@ -7,6 +7,7 @@ import Spacer from "@/components/spacer/Spacer";
 
 const NavigationOption = ({id, label, route}) => {
     const isSelected = usePathname() === route;
+
     const navigationOptionId = `navigation-option-${id}`;
 
     let labelStyle = "navigation-option-link ";
