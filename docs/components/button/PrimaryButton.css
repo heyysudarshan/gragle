@@ -1,0 +1,25 @@
+.button-default {
+    padding: 20px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.primary-button {
+    background-color: var(--primaryColor);
+    color: var(--primaryFontColor);
+}
+
+.primary-button:hover {
+    background-color: #196b52;
+}
+
+.outlined-button {
+    border: 1px solid white;
+    color: white;
+}
+
+.outlined-button:hover {
+    background-color: #196b52;
+}
