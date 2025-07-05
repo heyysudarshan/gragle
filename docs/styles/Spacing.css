@@ -1,4 +1,9 @@
-._8px {
+._8px_height {
     height: 8px;
+    color: transparent;
+}
+
+._8px_width {
+    width: 8px;
     color: transparent;
 }
