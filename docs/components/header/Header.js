@@ -23,7 +23,8 @@ const HeaderNavigation = () => {
                         <NavigationOption
                             id={navigationOption.id}
                             label={navigationOption.label}
-                            route={navigationOption.endpoint}>
+                            route={navigationOption.endpoint}
+                            key={navigationOption.id}>
                         </NavigationOption>
                     ))
                 }
