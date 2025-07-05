@@ -1,0 +1,41 @@
+.hero-section {
+    height: 100%;
+    color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section-title-and-message  {
+    padding: 0 40% 0 40px;
+}
+
+.hero-section-action-buttons {
+    padding: 20px 40px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+@media (max-width: 1000px) {
+    .hero-section-title-and-message {
+        padding: 0 40px;
+        text-align: center;
+    }
+
+    .hero-section-action-buttons {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero-section-title-and-message {
+        padding: 0 40px;
+    }
+
+    .hero-section-action-buttons {
+        justify-content: center;
+    }
+}
