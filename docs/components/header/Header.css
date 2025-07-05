@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    position: fixed;
 }
 
 .header-link {
@@ -75,9 +76,5 @@
 @media (max-width: 1000px) {
     .navigation-options {
         display: none;
-    }
-
-    .header-github-button {
-        padding: 12px 16px;
     }
 }
