@@ -6,9 +6,11 @@ plugins {
 group = libs.versions.plugin.groupId.get()
 version = libs.versions.plugin.version.get()
 
+val name = libs.versions.plugin.name.get()
+
 gradlePlugin {
     plugins {
-        create("Gragle") {
+        create(name) {
             id = libs.versions.plugin.groupId.get()
             version = libs.versions.plugin.version.get()
             implementationClass = libs.versions.plugin.implementationClass.get()
