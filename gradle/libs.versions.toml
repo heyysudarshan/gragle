@@ -9,4 +9,5 @@ plugin.version = "1.0.0-Alpha"
 [libraries]
 
 [plugins]
+gradle-plugin-development = { id = "java-gradle-plugin" }
 kotlin-compiler = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
