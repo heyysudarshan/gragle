@@ -1,4 +1,7 @@
 [versions]
+# Library and plugin versions
+kotlin = "2.2.0"
+
 # Plugin module release information
 plugin.groupId = "io.github.heyysudarshan"
 plugin.version = "1.0.0-Alpha"
@@ -6,3 +9,4 @@ plugin.version = "1.0.0-Alpha"
 [libraries]
 
 [plugins]
+kotlin-compiler = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
