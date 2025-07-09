@@ -9,6 +9,7 @@ plugin-version = "1.0.0-Alpha"
 plugin-implementationClass = "io.github.heyysudarshan.Gragle"
 
 [libraries]
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 
 [plugins]
 gradle-plugin-development = { id = "java-gradle-plugin" }
