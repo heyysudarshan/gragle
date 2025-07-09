@@ -21,3 +21,6 @@ gradlePlugin {
 dependencies {
     testImplementation(libs.kotlin.test)
 }
+
+// Customize build directory
+layout.buildDirectory.set(file("$rootDir/.build/plugin"))
