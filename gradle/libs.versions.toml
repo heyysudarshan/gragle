@@ -1,4 +1,7 @@
 [versions]
+# Plugin module release information
+plugin.groupId = "io.github.heyysudarshan"
+plugin.version = "1.0.0-Alpha"
 
 [libraries]
 
