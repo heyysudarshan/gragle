@@ -1,0 +1,15 @@
+{
+    "name": "gragle",
+    "version": "1.0.0-Alpha",
+    "author": "Sudarshan Mhasrup",
+    "description": "Documentation website for the Gragle plugin.",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build"
+    },
+    "dependencies": {
+        "react": "latest",
+        "react-dom": "latest",
+        "next": "latest"
+    }
+}
