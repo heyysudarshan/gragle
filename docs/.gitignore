@@ -1,5 +1,8 @@
 # Idea configuration folder
 .idea
 
+# Next JS cache folder
+.next
+
 # Node modules
 node_modules
