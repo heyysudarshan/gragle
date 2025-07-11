@@ -5,6 +5,7 @@ kotlin = "2.2.0"
 # Plugin module release information
 plugin-name = "Gragle"
 plugin-groupId = "io.github.heyysudarshan"
+plugin-id = "io.github.heyysudarshan.gragle"
 plugin-version = "1.0.0-Alpha"
 plugin-implementationClass = "io.github.heyysudarshan.Gragle"
 
