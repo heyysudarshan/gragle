@@ -1,4 +1,6 @@
-const NextApp = () => {
+import WebInfo from "./WebInfo";
+
+const NextApp = ({children}) => {
     return (
         <html lang="en">
             <head>
@@ -6,7 +8,7 @@ const NextApp = () => {
                 <title>{WebInfo.title}</title>
             </head>
             <body>
-
+                <div className="main-app" id="main-app">{children}</div>
             </body>
         </html>
     );
