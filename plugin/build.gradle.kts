@@ -13,7 +13,7 @@ val name = libs.versions.plugin.name.get()
 gradlePlugin {
     plugins {
         create(name) {
-            id = libs.versions.plugin.groupId.get()
+            id = libs.versions.plugin.id.get()
             version = libs.versions.plugin.version.get()
             implementationClass = libs.versions.plugin.implementationClass.get()
         }
