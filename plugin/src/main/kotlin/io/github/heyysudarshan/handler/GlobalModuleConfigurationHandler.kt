@@ -2,10 +2,11 @@ package io.github.heyysudarshan.handler
 
 import java.io.File
 
-internal class GlobalModuleConfigurationHandler(private val moduleName: String) {
-    fun configure() {
+internal object GlobalModuleConfigurationHandler {
+    
+    fun configure(moduleName: String) {
         addModuleToSettingsFile()
-        createDirectory()
+        createDirectory(moduleName = moduleName)
     }
 
     private fun addModuleToSettingsFile(): Any? {
@@ -20,7 +21,7 @@ internal class GlobalModuleConfigurationHandler(private val moduleName: String) 
         return Unit
     }
 
-    private fun createDirectory() {
+    private fun createDirectory(moduleName: String) {
         val moduleDirectory = File(moduleName)
         if (!moduleDirectory.exists()) {
             moduleDirectory.mkdir()
