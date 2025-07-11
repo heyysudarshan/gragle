@@ -2,7 +2,7 @@ import "./ProjectWizardPage.css";
 import Spacer from "@/components/Spacer";
 
 const title = "Gragle Project Wizard"
-const message = "This project wizard generates a Gradle project with the Gradle plugin pre-applied. You can set up Android, Kotlin Multiplatform, and other supported modules using Gragle APIs."
+const message = "This project wizard generates a Gradle project with the Gragle plugin pre-applied. You can set up Android, Kotlin Multiplatform, and other supported modules using Gragle APIs."
 
 const ProjectWizardTitleAndMessage = () => {
     return (
