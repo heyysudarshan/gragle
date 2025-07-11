@@ -69,3 +69,19 @@
     line-height: 20px;
     letter-spacing: 0.4px;
 }
+
+.regular {
+    font-weight: 400;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
