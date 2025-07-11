@@ -1,0 +1,23 @@
+:root {
+    --background-color: #FFFFFF;
+    --primary-font-color: #171D1A;
+    --secondary-font-color: #404944;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    background-color: var(--background-color);
+}
+
+.main-app {
+    height: 100%;
+    width: 100%;
+}
