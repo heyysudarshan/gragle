@@ -37,5 +37,5 @@ kotlin.compilerOptions {
     jvmTarget = JvmTarget.JVM_11
 }
 
-// Customize build directory
+// Custom build directory
 layout.buildDirectory.set(file("$rootDir/.build/plugin"))
