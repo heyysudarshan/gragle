@@ -18,3 +18,9 @@
 .project-wizard-message {
     text-align: center;
 }
+
+@media (max-width: 650px) {
+    .project-wizard-page {
+        padding: 0 20px;
+    }
+}
