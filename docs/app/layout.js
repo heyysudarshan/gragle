@@ -1,5 +1,7 @@
 import WebInfo from "./WebInfo";
 
+import "/styles/Global.css";
+
 const NextApp = ({children}) => {
     return (
         <html lang="en">
