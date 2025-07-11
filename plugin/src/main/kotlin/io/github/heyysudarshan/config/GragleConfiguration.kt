@@ -12,7 +12,8 @@ import org.gradle.api.Project
  * By accessing the scope of [GlobalConfigurationHandler] in this extension function's lambda block, you can also
  * use Gragle APIs like `createModule` to automatically add new modules to your existing project declaratively.
  *
- * Note: Changes made using this configuration will apply globally and affect all modules in the project.
+ * Note: Changes made using this configuration will apply globally and affect all modules in the project. Also, you
+ * should use this block only once in your file, and that too in the root `build.gradle.kts file`.
  */
 fun Project.gragle(globalConfigurationHandlerScope: GlobalConfigurationHandler.() -> Unit) {
     globalConfigurationHandlerScope(GlobalConfigurationHandler)
