@@ -1,6 +1,7 @@
 {
     "name": "gragle",
     "version": "1.0.0-Alpha",
+    "private": "true",
     "author": "Sudarshan Mhasrup",
     "description": "Documentation website for the Gragle plugin.",
     "scripts": {
