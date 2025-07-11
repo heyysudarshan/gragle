@@ -1,8 +1,8 @@
-package io.github.heyysudarshan.gragle
+package io.github.heyysudarshan
 
-import io.github.heyysudarshan.gragle.config.configureGroupIdAndVersion
-import io.github.heyysudarshan.gragle.config.customizeBuildDirectory
-import io.github.heyysudarshan.gragle.handler.GlobalConfigurationHandler
+import io.github.heyysudarshan.config.configureGroupIdAndVersion
+import io.github.heyysudarshan.config.customizeBuildDirectory
+import io.github.heyysudarshan.handler.GlobalConfigurationHandler
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 

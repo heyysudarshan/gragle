@@ -1,6 +1,6 @@
-package io.github.heyysudarshan.gragle.config
+package io.github.heyysudarshan.config
 
-import io.github.heyysudarshan.gragle.util.ProjectDirectoryNameManager
+import io.github.heyysudarshan.util.ProjectDirectoryNameManager
 import org.gradle.api.Project
 
 internal fun customizeBuildDirectory(project: Project) {

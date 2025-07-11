@@ -1,4 +1,4 @@
-package io.github.heyysudarshan.gragle.handler
+package io.github.heyysudarshan.handler
 
 object GlobalConfigurationHandler {
     var customBuildDirectory = true

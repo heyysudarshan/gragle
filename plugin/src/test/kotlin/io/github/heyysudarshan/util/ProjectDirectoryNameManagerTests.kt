@@ -1,4 +1,4 @@
-package io.github.heyysudarshan.gragle.util
+package io.github.heyysudarshan.util
 
 import kotlin.test.Test
 import kotlin.test.assertEquals

@@ -1,6 +1,6 @@
-package io.github.heyysudarshan.gragle.config
+package io.github.heyysudarshan.config
 
-import io.github.heyysudarshan.gragle.handler.GlobalConfigurationHandler
+import io.github.heyysudarshan.handler.GlobalConfigurationHandler
 import org.gradle.api.Project
 
 fun Project.gragle(globalConfigurationHandlerScope: GlobalConfigurationHandler.() -> Unit) {
