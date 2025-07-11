@@ -3,7 +3,6 @@ package io.github.heyysudarshan.handler
 import java.io.File
 
 internal object GlobalModuleConfigurationHandler {
-    
     fun configure(moduleName: String) {
         addModuleToSettingsFile()
         createDirectory(moduleName = moduleName)
