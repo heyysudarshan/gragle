@@ -44,14 +44,14 @@ import org.gradle.api.Project
  * gragle {
  *     createModule {
  *         kotlinMultiplatformLibrary {
- *             moduleName = "julie"
+ *             moduleName = "shared"
  *             targetType = TargetType.MobileTargets
  *         }
  *     }
  * }
  * ```
  *
- * Note: Changes made using this configuration will apply globally and affect all modules in the project. Also, you
+ * Note: Changes made using [gragle] function will apply globally and affect all modules in the project. Also, you
  * should use this block only once in your file, and that too in the root `build.gradle.kts file`.
  */
 fun Project.gragle(globalConfigurationHandlerScope: GlobalConfigurationHandler.() -> Unit) {
