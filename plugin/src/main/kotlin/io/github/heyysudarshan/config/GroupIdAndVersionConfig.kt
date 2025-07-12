@@ -5,12 +5,12 @@ import org.gradle.api.Project
 import org.gradle.api.artifacts.VersionCatalogsExtension
 
 internal fun configureGroupIdAndVersion(project: Project) {
-    val libs = project.extensions.getByType(VersionCatalogsExtension::class.java)
+    val libs = project.extensions
+        .getByType(VersionCatalogsExtension::class.java)
         .named("libs")
 
-    val formattedProjectDirectoryName = ProjectDirectoryNameManager.getFormattedProjectDirectoryName(
-        projectDirectoryName = project.name
-    )
+    val formattedProjectDirectoryName = ProjectDirectoryNameManager
+        .getFormattedProjectDirectoryName(projectDirectoryName = project.name)
 
     val groupIdIdentifier = "$formattedProjectDirectoryName-groupId"
     val versionIdentifier = "$formattedProjectDirectoryName-version"
