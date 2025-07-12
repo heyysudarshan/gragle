@@ -17,3 +17,28 @@
 .spacer-20px-height {
   height: 20px;
 }
+
+.spacer-4px-width {
+  width: 4px;
+  display: inline;
+}
+
+.spacer-8px-width {
+  width: 8px;
+  display: inline;
+}
+
+.spacer-12px-width {
+  width: 12px;
+  display: inline;
+}
+
+.spacer-16px-width {
+  width: 16px;
+  display: inline;
+}
+
+.spacer-20px-width {
+  width: 20px;
+  display: inline;
+}
