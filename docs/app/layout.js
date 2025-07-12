@@ -2,6 +2,7 @@ import WebInfo from "./WebInfo";
 
 import "/styles/Global.css";
 import "/styles/Type.css";
+import "/styles/Spacing.css";
 
 const NextApp = ({children}) => {
     return (
@@ -11,7 +12,7 @@ const NextApp = ({children}) => {
                 <title>{WebInfo.title}</title>
             </head>
             <body>
-                <div className="main-app" id="main-app">{children}</div>
+                <div className="main-app">{children}</div>
             </body>
         </html>
     );
