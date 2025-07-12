@@ -1,11 +1,14 @@
 package io.github.heyysudarshan.handler
 
+import io.github.heyysudarshan.extension.KotlinMultiplatformConfigScope.moduleName
 import java.io.File
 
 internal object GlobalModuleConfigurationHandler {
+
     fun configure(moduleName: String) {
         addModuleToSettingsFile()
-        createDirectory(moduleName = moduleName)
+        createModuleDirectory(moduleName = moduleName)
+        createBuildGradleFile(moduleName = moduleName)
     }
 
     private fun addModuleToSettingsFile(): Any? {
@@ -17,13 +20,27 @@ internal object GlobalModuleConfigurationHandler {
             """.trimIndent())
         }
 
+        val settingsFileLines = settingsFile.readLines()
+        val statementToAppend = """include(":$moduleName")"""
+
+        if (!settingsFileLines.contains(element = statementToAppend)) {
+            settingsFile.appendText(text = "\n$statementToAppend")
+        }
+
         return Unit
     }
 
-    private fun createDirectory(moduleName: String) {
+    private fun createModuleDirectory(moduleName: String) {
         val moduleDirectory = File(moduleName)
         if (!moduleDirectory.exists()) {
             moduleDirectory.mkdir()
+        }
+    }
+
+    private fun createBuildGradleFile(moduleName: String) {
+        val buildGradleFile = File("$moduleName/build.gradle.kts")
+        if (!buildGradleFile.exists()) {
+            buildGradleFile.createNewFile()
         }
     }
 }
