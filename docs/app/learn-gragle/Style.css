@@ -1,0 +1,29 @@
+.learn-gragle {
+    height: 100%;
+    display: flex;
+}
+
+.learn-gragle-primary-navigation {
+    height: 100%;
+    width: 22%;
+}
+
+.article-content {
+    height: 100%;
+    width: 58%;
+}
+
+.learn-gragle-secondary-navigation {
+    width: 22%;
+}
+
+@media (max-width: 650px) {
+    .learn-gragle-primary-navigation, .learn-gragle-secondary-navigation {
+        display: none;
+    }
+
+    .article-content {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
