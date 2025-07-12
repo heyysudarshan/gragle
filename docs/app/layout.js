@@ -2,6 +2,7 @@ import WebInfo from "./WebInfo";
 
 import "/styles/Global.css";
 import "/styles/Type.css";
+import "/styles/Color.css";
 import "/styles/Spacing.css";
 
 const NextApp = ({children}) => {
