@@ -12,15 +12,14 @@ object CreateModulesScope
  * anywhere, but to improve readability and expect predictable behavior, it's scoped under the lambda body of the
  * [createModule] function.
  *
- * When you call this function, it takes a lambda function as its argument, which returns a String as its return value.
- * You can pass any of the following functions as its argument to create a new module:
+ * When you call this function, it takes a lambda function as its argument. You can pass any of the following functions
+ * as its argument to create a new module:
  *
  * 1. [kotlinMultiplatformLibrary]: This function creates a new Kotlin multiplatform library module inside your project.
  * You can pass this function as an argument for the [createModule] function.
  */
 fun GlobalConfigurationHandler.createModule(
-    module: CreateModulesScope.() -> String
+    module: CreateModulesScope.() -> Unit
 ) {
-    val currentModuleName = module(CreateModulesScope)
-    GlobalModuleConfigurationHandler.configure(moduleName = currentModuleName)
+    module(CreateModulesScope)
 }
