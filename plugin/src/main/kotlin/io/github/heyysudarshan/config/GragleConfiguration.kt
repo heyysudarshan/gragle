@@ -5,18 +5,6 @@ import io.github.heyysudarshan.handler.GlobalConfigurationHandler
 import org.gradle.api.Project
 
 /**
- * Extension function to configure Gragle's global settings.
- *
- * This function provides access to the [GlobalConfigurationHandler]'s scope, allowing you to enable or disable
- * various Gragle features such as custom build directory locations, automatic group ID assignment, and more.
- *
- *
- * Note: Changes made using this configuration will apply globally and affect all modules in the project. Also, you
- * should use this block only once in your file, and that too in the root `build.gradle.kts file`.
- */
-
-
-/**
  * Extension function to configure Gragle's global settings from root `build.gradle.kts` of your project.
  *
  * This function allows you to configure global settings for the Gragle plugin. It provides access to the scope of the
