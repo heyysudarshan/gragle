@@ -1,17 +1,16 @@
 package io.github.heyysudarshan.handler
 
-import io.github.heyysudarshan.extension.KotlinMultiplatformConfigScope.moduleName
 import java.io.File
 
 internal object GlobalModuleConfigurationHandler {
 
     fun configure(moduleName: String) {
-        addModuleToSettingsFile()
+        addModuleToSettingsFile(moduleName = moduleName)
         createModuleDirectory(moduleName = moduleName)
         createBuildGradleFile(moduleName = moduleName)
     }
 
-    private fun addModuleToSettingsFile(): Any? {
+    private fun addModuleToSettingsFile(moduleName: String): Any? {
         val settingsFile = File("settings.gradle.kts")
         if (!settingsFile.exists()) {
             throw IllegalArgumentException("""
