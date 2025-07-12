@@ -26,7 +26,7 @@ internal fun configureGroupIdAndVersion(project: Project) {
     val version = libs.findVersion(versionIdentifier).orElseThrow {
         IllegalArgumentException(
             """
-                To let Gragle set the groupId for the ${project.name} module automatically, add a version for `$versionIdentifier` in your version catalog.
+                To let Gragle set the version for the ${project.name} module automatically, add a version for `$versionIdentifier` in your version catalog.
                 If you don’t want Gragle to do this, just set `assignGroupIdAndVersion = false` in the gragle {} block of your root build.gradle.kts file.
             """.trimIndent()
         )
