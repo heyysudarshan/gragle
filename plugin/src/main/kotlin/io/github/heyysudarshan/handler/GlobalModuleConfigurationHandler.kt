@@ -10,7 +10,7 @@ internal object GlobalModuleConfigurationHandler {
         createBuildGradleFile(moduleName = moduleName)
     }
 
-    private fun addModuleToSettingsFile(moduleName: String): Any? {
+    private fun addModuleToSettingsFile(moduleName: String) {
         val settingsFile = File("settings.gradle.kts")
         if (!settingsFile.exists()) {
             throw IllegalArgumentException("""
