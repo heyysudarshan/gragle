@@ -17,6 +17,25 @@
     width: 22%;
 }
 
+.article-heading-and-overview {
+    padding: 40px 0 20px 0;
+}
+
+.article-body-section {
+    padding: 20px 0;
+}
+
+.highlighted-content {
+    background-color: var(--border-color);
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin: 0 4px;
+}
+
+.body-list {
+    padding-left: 20px;
+}
+
 @media (max-width: 650px) {
     .learn-gragle-primary-navigation, .learn-gragle-secondary-navigation {
         display: none;
