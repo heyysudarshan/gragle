@@ -1,6 +1,6 @@
-import Spacer from "@/components/Spacer";
+import Spacer from "@/components/spacer/Spacer";
 import Link from "next/link";
-import NextArticleNavigator from "@/components/NextArticleNavigator";
+import NextArticleNavigator from "@/components/articleNavigators/NextArticleNavigator";
 
 const Article1 = () => {
     return (
