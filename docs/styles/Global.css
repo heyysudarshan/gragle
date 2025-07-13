@@ -5,7 +5,9 @@
     --primary-color: #196B52;
     --primary-font-color: #171d1a;
     --secondary-font-color: #404944;
-    --border-color: #eff5f0;
+    --border-color-low: #eff5f0;
+    --border-color-medium: #e9efea;
+    --border-color-high: #e4eae4;
 }
 
 * {
@@ -29,10 +31,10 @@ html, body {
 
 hr {
     border: 0;
-    border-top: 1px solid var(--border-color);
+    border-top: 1px solid var(--border-color-medium);
 }
 
 a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: #2663ff;
 }
