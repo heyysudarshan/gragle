@@ -1,7 +1,5 @@
-import Spacer from "@/components/Spacer";
+import Spacer from "@/components/spacer/Spacer";
 import Link from "next/link";
-
-import "./Components.css";
 
 const NextArticleNavigator = ({label, route}) => {
     return (
