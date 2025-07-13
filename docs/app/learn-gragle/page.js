@@ -1,4 +1,4 @@
-import Article1 from "@/learn-gragle/article-1/Page";
+import Article1 from "@/learn-gragle/Article1";
 
 const GettingStartedContent = () => {
     return <Article1></Article1>;
