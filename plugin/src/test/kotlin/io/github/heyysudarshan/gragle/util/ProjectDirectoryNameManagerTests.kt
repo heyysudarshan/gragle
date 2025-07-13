@@ -1,8 +1,7 @@
-package io.github.heyysudarshan.util
+package io.github.heyysudarshan.gragle.util
 
 import kotlin.test.Test
 import kotlin.test.assertEquals
-
 
 class ProjectDirectoryNameManagerTests {
 
