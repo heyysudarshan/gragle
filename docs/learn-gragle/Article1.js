@@ -135,7 +135,7 @@ const Article1 = () => {
                 <div></div>
                 <NextArticleNavigator
                     label="Installation Guide"
-                    route="/learn-gragle/instalation">
+                    route="/learn-gragle/installation">
                 </NextArticleNavigator>
             </section>
         </div>
