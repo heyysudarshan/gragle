@@ -1,5 +1,6 @@
 import Spacer from "@/components/Spacer";
 import Link from "next/link";
+import NextArticleNavigator from "@/components/NextArticleNavigator";
 
 const Article1 = () => {
     return (
@@ -35,9 +36,9 @@ const Article1 = () => {
                     </li>
                     <Spacer className="spacer-8px-height"></Spacer>
                     <li className="body-large medium secondary-font-color">
-                        Automatically assigning properties like <span className="highlighted-content">groupId</span>
-                        and <span className="highlighted-content">version</span> to each module by looking for
-                        their declarations inside your project's version catalog,
+                        Automatically assigning properties like<span className="highlighted-content">groupId</span>and
+                        <span className="highlighted-content">version</span>to each module by looking for their
+                        declarations inside your project's version catalog,
                     </li>
                     <Spacer className="spacer-8px-height"></Spacer>
                     <li className="body-large medium secondary-font-color">
@@ -60,7 +61,7 @@ const Article1 = () => {
                     </li>
                     <Spacer className="spacer-8px-height"></Spacer>
                     <li className="body-large medium secondary-font-color">
-                        Automate assignment of <span className="highlighted-content">groupId</span> and
+                        Automate assignment of<span className="highlighted-content">groupId</span>and
                         <span className="highlighted-content">version</span>for all modules.
                     </li>
                     <Spacer className="spacer-8px-height"></Spacer>
@@ -69,8 +70,8 @@ const Article1 = () => {
                     </li>
                     <Spacer className="spacer-8px-height"></Spacer>
                     <li className="body-large medium secondary-font-color">
-                        Add new modules inside of your project by just calling functions in the root<span
-                        className="highlighted-content">build.gradle.kts</span>file of your project.
+                        Add new modules inside of your project by just calling functions in the root
+                        <span className="highlighted-content">build.gradle.kts</span>file of your project.
                     </li>
                     <Spacer className="spacer-8px-height"></Spacer>
                     <li className="body-large medium secondary-font-color">
@@ -84,8 +85,8 @@ const Article1 = () => {
                 <Spacer className="spacer-8px-height"></Spacer>
                 <p className="body-large medium secondary-font-color">
                     If you find Gragle helpful and want to extend it for other use cases, then you can contribute to the
-                    development of this plugin. To contribute to this plugin, see <Link href="/contribute">contributing
-                    to Gragle.</Link>
+                    development of this plugin. To contribute to this plugin, see
+                    <Link href="/contribute">contributing to Gragle.</Link>
                 </p>
             </section>
             <hr/>
@@ -112,13 +113,30 @@ const Article1 = () => {
             <hr/>
             <section className="article-body-section">
                 <h3 className="title-medium bold primary-font-color">
-                    Get Started
+                    How to get started?
                 </h3>
                 <Spacer className="spacer-8px-height"></Spacer>
                 <p className="body-large medium secondary-font-color">
-                    I'm planning to add more tasks that Gragle will automate for your project as this project grows and
-                    developers give feedback.
+                    Interested in exploring the APIs provided by this plugin or want to see what it offers? Here's how
+                    you can get started.
                 </p>
+                <Spacer className="spacer-8px-height"></Spacer>
+                <p className="body-large medium secondary-font-color">
+                    <span className="dash">-</span><Link href="/learn-gragle/installation">Installation guide: </Link>
+                    Follow these steps to easily add and use this plugin in your project.
+                </p>
+                <Spacer className="spacer-8px-height"></Spacer>
+                <p className="body-large medium secondary-font-color">
+                    <span className="dash">-</span><Link href="/learn-gragle/layout">Usage Guide: </Link>Learn how to
+                    use this plugin effectively in your project.
+                </p>
+            </section>
+            <section className="article-footer">
+                <div></div>
+                <NextArticleNavigator
+                    label="Installation Guide"
+                    route="/learn-gragle/instalation">
+                </NextArticleNavigator>
             </section>
         </div>
     );
