@@ -38,3 +38,27 @@ a {
     text-decoration: none;
     color: var(--primary-color);
 }
+
+.next-article-navigator {
+    padding: 20px;
+    cursor: pointer;
+    display: flex;
+}
+
+.next-article-navigator:hover {
+    background-color: var(--border-color-low);
+}
+
+.next-article-navigator-name {
+    display: block;
+    text-align: center;
+}
+
+.next-article-navigator-label {
+    display: block;
+    text-align: center;
+}
+
+.next-article-navigator-arrow {
+    fill: green;
+}
