@@ -26,7 +26,7 @@
 }
 
 .highlighted-content {
-    background-color: var(--border-color);
+    background-color: var(--border-color-low);
     padding: 2px 4px;
     border-radius: 4px;
     margin: 0 4px;
@@ -34,6 +34,17 @@
 
 .body-list {
     padding-left: 20px;
+}
+
+.article-footer {
+    padding: 20px 0;
+    justify-content: space-between;
+    display: flex;
+}
+
+.dash {
+    color: var(--border-color-high);
+    padding: 0 12px;
 }
 
 @media (max-width: 650px) {
