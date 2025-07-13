@@ -1,4 +1,4 @@
-package io.github.heyysudarshan.util
+package io.github.heyysudarshan.gragle.util
 
 internal object ProjectDirectoryNameManager {
 
