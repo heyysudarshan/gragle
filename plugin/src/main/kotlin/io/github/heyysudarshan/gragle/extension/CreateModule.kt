@@ -1,7 +1,6 @@
-package io.github.heyysudarshan.extension
+package io.github.heyysudarshan.gragle.extension
 
-import io.github.heyysudarshan.handler.GlobalConfigurationHandler
-import io.github.heyysudarshan.handler.GlobalModuleConfigurationHandler
+import io.github.heyysudarshan.gragle.handler.GlobalConfigurationHandler
 
 object CreateModulesScope
 
@@ -19,7 +18,7 @@ object CreateModulesScope
  * You can pass this function as an argument for the [createModule] function.
  */
 fun GlobalConfigurationHandler.createModule(
-    module: CreateModulesScope.() -> Unit
+    module: CreateModulesScope.() -> Boolean
 ) {
     module(CreateModulesScope)
 }
