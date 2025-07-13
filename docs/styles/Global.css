@@ -36,5 +36,5 @@ hr {
 
 a {
     text-decoration: none;
-    color: #2663ff;
+    color: var(--primary-color);
 }
