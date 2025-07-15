@@ -29,7 +29,7 @@ can extend using the Gragle plugin.
 To apply Gragle to any existing project, copy and paste the following line of code under your module's plugins block.
 
 ```groovy
-id("io.github.heyysudarshan.gragle") version "1.0.0-Alpha"
+id("io.github.heyysudarshan.gragle") version "1.0.0-Alpha" 
 ```
 
 Note: Your project must have a `libs.version.catalog` file because Gragle uses it to enable some default features.
