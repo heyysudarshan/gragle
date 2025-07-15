@@ -3,6 +3,7 @@
 :root {
     --background-color: #ffffff;
     --primary-color: #196B52;
+    --secondary-color: #f5fbf6;
     --primary-font-color: #171d1a;
     --secondary-font-color: #404944;
     --border-color-low: #eff5f0;
@@ -29,6 +30,11 @@ html, body {
     width: 100%;
 }
 
+.main-section {
+    height: 100%;
+    width: 100%;
+}
+
 hr {
     border: 0;
     border-top: 1px solid var(--border-color-medium);
@@ -37,28 +43,4 @@ hr {
 a {
     text-decoration: none;
     color: var(--primary-color);
-}
-
-.next-article-navigator {
-    padding: 20px;
-    cursor: pointer;
-    display: flex;
-}
-
-.next-article-navigator:hover {
-    background-color: var(--border-color-low);
-}
-
-.next-article-navigator-name {
-    display: block;
-    text-align: center;
-}
-
-.next-article-navigator-label {
-    display: block;
-    text-align: center;
-}
-
-.next-article-navigator-arrow {
-    fill: green;
 }
