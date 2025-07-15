@@ -1,7 +1,23 @@
+.primary-color {
+    color: var(--primary-color);
+}
+
 .primary-font-color {
     color: var(--primary-font-color);
 }
 
 .secondary-font-color {
     color: var(--secondary-font-color);
+}
+
+.border-color-low {
+    color: var(--border-color-low);
+}
+
+.border-color-medium {
+    color: var(--border-color-medium);
+}
+
+.border-color-high {
+    color: var(--border-color-high);
 }
